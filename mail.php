@@ -1,21 +1,19 @@
 <?php
-//get data from form
-    
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $message = $_POST['message'];
+if(!empty($_POST["send"])) {
+	$name = $_POST["userName"];
+	$email = $_POST["userEmail"];
+	$subject = $_POST["subject"];
+	$content = $_POST["content"];
 
-    $to = "shakilahmmed9990@gmail.com";
-
-    
-    $subject ="Mail From website";
-
-    $txt ="Name = ". $name . "\r\nEmail = " . $email . "\r\n Message =" . $message; 
-    $headers = "From:noreply@shakil-ahmmed.github.io/.aacom" . \r\n .
-    "CC: somebodyelse@example.com";
-    if($email!=NULL){
-        mail($to,$subject,$txt,$headers);
-    }
+	$toEmail = "shakilahmmed9990@gmail.com";
+	$mailHeaders = "From: " . $name . "<". $email .">\r\n";
+	if(mail($toEmail, $subject, $content, $mailHeaders)) {
+	    $message = "Your contact information is received successfully.";
+	    $type = "success";
+	}
+}
+require_once "contact-view.php";
+?>
     //redirect
     header("Location:thankyou.html");
     ?>
