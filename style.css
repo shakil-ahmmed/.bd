@@ -7,6 +7,7 @@
 }
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -100,8 +101,7 @@ a.active,a:hover{
     #check:checked ~ ul{
         left: 0;
     }
-}  
-
+}    
 /* Home Section */
 #home{
     display: flex;
