@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SHAKIL'S HUB PAGE-1</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" media="screen and (max-width=800px)" href="tablet.css">
     <link rel="stylesheet" media="screen and (max-width=530px)" href="phone.css">
     <link rel="shortcut icon" href="feature.png">
@@ -14,12 +15,15 @@
 </head>
 <body>
     <nav class="navbar">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">SHAKIL'X</label>
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#photos">Photos</a></li>
-            <li><a href="#services">Services</a></li>
-
-
+            <li><a class="active" href="#home">HOME</a></li>
+            <li><a class="active" href="#portfolio">PHOTOS</a></li>
+            <li><a class="active" href="#services">SERVICES</a></li>
         </ul>
     </nav>
     <section id="home"></section>
