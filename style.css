@@ -177,7 +177,7 @@ a.active,a:hover{
 
 /* Portfolio Section*/
 
-#portfolio{
+#photos{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -333,7 +333,7 @@ a {
 	color:#242425;
 }
 .contact-input a{
-	width:200px;
+	width:150px;
 	height:35px;
 	background-color:#1db096;
 	color:#FFFFFF;
