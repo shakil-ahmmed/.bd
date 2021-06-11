@@ -149,7 +149,7 @@ a.active,a:hover{
 }
 .btn:hover{
     cursor: pointer;
-    background-color: blue;
+    background-color: black;
     color: black;
     box-shadow: 0 0 5px black, 0 0 10px black, 0 0 15px black;
     font-weight: bold;
