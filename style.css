@@ -142,16 +142,16 @@ a.active,a:hover{
 .btn{
     padding: 10px 30px;
     background-color: transparent;
-    border: 1px solid white;
-    color: white;
+    border: 1px solid black;
+    color: red;
     outline: none;
     transition: .6s ease;
 }
 .btn:hover{
     cursor: pointer;
-    background-color: white;
+    background-color: blue;
     color: black;
-    box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+    box-shadow: 0 0 5px blue, 0 0 10px blue, 0 0 15px blue;
     font-weight: bold;
 }
 
