@@ -151,7 +151,7 @@ a.active,a:hover{
     cursor: pointer;
     background-color: pink;
     color: pink;
-    box-shadow: 0 0 5px pink, 0 0 10px pink, 0 0 15px pink;
+    box-shadow: 0 0 5px pink, 0 0 10px pink;
     font-weight: bold;
 }
 
