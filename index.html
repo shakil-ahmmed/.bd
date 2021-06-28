@@ -15,7 +15,8 @@
 
 </head>
 <body>
-
+	
+<div id="preloader"></div>
 	
     <nav class="navbar">
         <input type="checkbox" id="check">
@@ -182,7 +183,12 @@
     <!-- Your Chat plugin code -->
     <div id="fb-customer-chat" class="fb-customerchat">
     </div>
-
+<script> 
+	var loader = document.getElementById("preloader");
+	window.addEventListener("load",function(){loader.style.display ="none";})
+	
+	
+	
     
 </body>
 </html>
